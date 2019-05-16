@@ -1,7 +1,7 @@
 Docker-NDVM
 ====
 
-[NDVM](https://github.com/NDVM/NDVM) or **Neutral Desktop Video Management** in container
+[NDVM](https://github.com/NDVM/NDVM) - **Neutral Desktop Video Management** in container
 
 ---
 
