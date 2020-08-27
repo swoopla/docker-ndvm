@@ -2,7 +2,7 @@ FROM node:alpine as src
 
 ENV SRC_URL=https://codeload.github.com/NDVM/NDVM/zip/master
 
-RUN wget ${SRC_URL} --output /tmp/master.zip && \
+RUN wget ${SRC_URL} -O /tmp/master.zip && \
     unzip -d /tmp /tmp/master.zip && \
     sed -i -e 's/^\(var html5Player =\) false/\1 true/' /tmp/NDVM-master/server/server.js
 
